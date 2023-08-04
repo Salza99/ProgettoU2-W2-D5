@@ -10771,4 +10771,11 @@ nav div img {
 }
 nav div #logo {
   width: 100px;
+}
+
+section img {
+  transition: all 1s;
+}
+section img:hover {
+  transform: scale(1.6);
 }/*# sourceMappingURL=style.css.map */

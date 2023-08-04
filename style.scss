@@ -17,3 +17,11 @@ nav {
     }
   }
 }
+section {
+  img {
+    transition: all 1s;
+    &:hover {
+      transform: scale(1.6);
+    }
+  }
+}
