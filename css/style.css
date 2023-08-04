@@ -10760,6 +10760,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+nav div a {
+  transition: color 0.5s;
+}
+nav div a:hover {
+  color: white !important;
+}
 nav div img {
   width: 50px;
 }

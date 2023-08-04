@@ -2,6 +2,13 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 nav {
   div {
+    a {
+      transition: color 0.5s;
+
+      &:hover {
+        color: white !important;
+      }
+    }
     img {
       width: 50px;
     }
