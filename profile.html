@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/css/style.min.css" />
+    <title>Profile</title>
+  </head>
+  <body class="bg-dark">
+    <div class="row justify-content-center justify-content-sm-start">
+      <img class="col-3 col-md-2 col-lg-1 img-fluid" src="./Netflix-assets/assets/netflix_logo.png" alt="" />
+    </div>
+    <div class="container text-center text-sm-start">
+      <h1 class="text-light mb-4">Edit Profile</h1>
+      <div class="row text-center text-sm-start justify-content-between">
+        <div class="col-12 col-sm-3">
+          <div><img class="img-fluid" src="./Netflix-assets/assets/avatar.png" alt="" /></div>
+        </div>
+
+        <div class="col-12 col-sm-9 col-md-7 mt-4 mt-sm-0">
+          <input
+            type="text"
+            readonly
+            placeholder="Strive Student"
+            class="bg-secondary text-light mb-4"
+            value="Strive Student"
+          />
+          <div class="mb-4">
+            <h5 class="text-secondary">Language:</h5>
+            <!-- dropdown -->
+          </div>
+          <hr class="text-secondary" />
+          <div class="mb-4">
+            <h5 class="text-secondary">Maturity Settings:</h5>
+            <button class="btn bg-dark bg-opacity-50 text-light">ALL MATURITY RATINGS</button>
+            <p class="text-light fw-light">
+              Show titles of <span class="fw-bold">all maturity ratings</span> for this profile
+            </p>
+            <button class="btn btn-outline-secondary text-secondary px-4">EDIT</button>
+            <hr class="text-secondary" />
+          </div>
+          <div>
+            <h5 class="text-secondary">Autoplay controls</h5>
+            <div class="d-flex align-items-center mb-2">
+              <p class="text-light mb-0">
+                <input class="form-check-input bg-dark text-secondary fs-4 border-secondary mt-0" type="checkbox" />
+                Autoplay next episode in a series on all devices
+              </p>
+            </div>
+            <div class="d-flex align-items-center mb-4">
+              <p class="text-light mb-0">
+                <input class="form-check-input bg-dark text-secondary fs-4 border-secondary mt-0" type="checkbox" />
+                Autoplay previews while broswing on all devices
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between mb-5">
+          <button class="btn btn-outline-dark text-secondary">SAVE</button>
+          <button class="btn btn-outline-dark text-secondary">CANCEL</button>
+          <button class="btn btn-outline-dark text-secondary">DELETE PROFILE</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
